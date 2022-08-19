@@ -1,0 +1,100 @@
+question_1 = input('What is 17+19? ')
+print(question_1 == '36')
+if question_1 == '36':
+    question_1 = 1
+elif question_1 != '36':
+    question_1 = 0
+question_2 = input('What is 36/6? ')
+print(question_2 == '6')
+if question_2 == '6':
+    question_2 = 1
+elif question_2 != '6':
+    question_2 = 0
+question_3 = input("What is Adrian's favorite animal? ")
+print(question_3 == 'penguin')
+if question_3 == 'penguin':
+    question_3 = 1
+elif question_3 != 'penguin':
+    question_3 = 0
+question_4 = input("What is koko's girlfriends name? ")
+if question_4 == 'Emmalee':
+    print(question_4 == 'Emmalee')
+elif question_4 == 'emmalee':
+    print(question_4 == 'emmalee')
+elif question_4 != 'Emmalee':
+    print(question_4 == 'Emmalee')
+if question_4 == 'Emmalee':
+    question_4 = 1
+elif question_4 == 'emmalee':
+    question_4 = 1
+elif question_4 != 'Emmalee':
+    question_4 = 0
+question_5 = input("what are the first 5 digits of pi? ")
+print(question_5 == '3.1415')
+if question_5 == '3.1415':
+    question_5 = 1
+elif question_5 != '3.1415':
+    question_5 = 0
+question_6 = input("When is Adrian's Birthday? (month and day)")
+if question_6 == 'July 3':
+    print(question_6 == 'July 3')
+elif question_6 == 'july 3':
+    print(question_6 == 'july 3')
+elif question_6 != 'July 3':
+    print(question_6 == 'July3')
+if question_6 == 'July 3':
+    question_6 = 1
+elif question_6 == 'july 3':
+    question_6 = 1
+elif question_6 != 'July 3':
+    question_6 = 0
+question_7 = input("What kind of bread did Adrian make in the beginning of quarantine? ")
+if question_7 == 'sourdough':
+    print(question_7 == 'sourdough')
+elif question_7 == 'sour dough':
+    print(question_7 == 'sour dough')
+elif question_7 != 'sourdough':
+    print(question_7 == 'sourdough')
+if question_7 == 'sourdough':
+    question_7 = 1
+elif question_7 == 'sour dough':
+    question_7 = 1
+elif question_7 != 'sourdough':
+    question_7 = 0
+question_8 = input("How many cars do we have? ")
+print(question_8 == '4')
+if question_8 == '4':
+    question_8 = 1
+elif question_8 != '4':
+    question_8 = 0
+question_9 = input("What is Adrian's middle name? ")
+if question_9 == 'Alexander':
+    print(question_9 == 'Alexander')
+elif question_9 == 'alexander':
+    print(question_9 == 'alexander')
+elif question_9 != 'Alexander':
+    print(question_9 == 'Alexander')
+if question_9 == 'Alexander':
+    question_9 = 1
+elif question_9 == 'alexander':
+    question_9 = 1
+elif question_9 != 'Alexander':
+    question_9 = 0
+question_10 = input("Which do you like more: ice cream or cake? ")
+if question_10 == 'ice cream':
+    print('I prefer ice cream too!')
+    question_10 = 1
+elif question_10 == 'Ice cream':
+    print('I enjoy ice cream more too.')
+    question_10 = 1
+elif question_10 == 'cake':
+    print("Oh... that's cool...")
+    question_10 = 1
+elif question_10 == 'Cake':
+    print("Ehh alright, I like ice cream more.")
+    question_10 = 1
+elif question_10 != 'ice cream':
+    question_10 = 0
+print()
+number_correct = (int(question_1) + int(question_2) + int(question_3) + int(question_4) + int(question_5) + int(question_6) + int(question_7) + int(question_8) + int(question_9) + int(question_10))
+print('Score: ' + str(number_correct) + ' out of ten')
